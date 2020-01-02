@@ -11,7 +11,7 @@ import org.apache.pulsar.common.schema.SchemaType;
 import java.util.concurrent.TimeUnit;
 
 public class TestConsume {
-    static String url = "pulsar://192.168.60.96:6650,192.168.60.97:6650,192.168.60.98:6650,192.168.60.99:6650";
+    static String url = "pulsar://";
     static String topicName = "persistent://tenant01/np01/xp01";
 
     public static void main(String[] args) throws Exception {
